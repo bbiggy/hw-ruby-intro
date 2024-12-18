@@ -8,7 +8,7 @@ end
 
 def max_2_sum(arr)
   return 0 if arr.empty?
-  return arr.first if arr.length == 1
+  return arr[0] if arr.length == 1
 
 
   arr.sort.last(2).sum
